@@ -1,4 +1,7 @@
 #Conta bancária simples
+from rich import print
+from rich import inspect
+
 class ContaBancaria:
     """
     Cria uma conta bancária e permite fazer saques e depósitos.
@@ -24,7 +27,5 @@ class ContaBancaria:
             print(f'Saque de R${valor:.2f} autorizado na conta {self.id}.')
 
 
-c1 = ContaBancaria(112, 'Gustavo', 3000)
-c1.depositar(500)
-c1.sacar(2_000_000)
-print(c1)
+c = ContaBancaria(111, 'José', 500)
+inspect(c)

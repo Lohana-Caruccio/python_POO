@@ -1,4 +1,4 @@
-
+#Cálculo de salário
 from rich import print
 from abc import ABC, abstractmethod
 from rich.panel import Panel

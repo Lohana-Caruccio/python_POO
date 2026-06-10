@@ -1,4 +1,4 @@
-
+# Simulando uma cafeteria
 from rich import print
 from classes_cafeteria import *
 
